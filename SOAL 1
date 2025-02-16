@@ -1,0 +1,11 @@
+def hitung_berat_badan(tinggi, bmi_harapan):
+    berat_diperlukan = bmi_harapan * (tinggi ** 2)
+    return berat_diperlukan
+
+tinggi = float(input("Masukkan tinggi badan (m): "))
+
+bmi_harapan = float(input("Masukkan BMI yang diharapkan: "))
+
+berat_diperlukan = hitung_berat_badan(tinggi, bmi_harapan)
+
+print(f"Berat badan yang diperlukan: {berat_diperlukan:.2f} kg")
