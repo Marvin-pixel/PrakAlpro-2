@@ -1,0 +1,7 @@
+x = int(input("Masukkan nilai x (bilangan bulat): "))
+
+if x == 0:
+    print("Error: x tidak boleh nol (pembagian oleh nol tidak diperbolehkan).")
+else:
+    f_x = 2 * (x ** 3) + 2 * x + (15 / x)
+    print(f"Hasil f({x}) = {f_x:.2f}")
